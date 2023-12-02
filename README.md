@@ -1,6 +1,6 @@
 # CoLSurgical
 
 
-<img width="693" alt="Screen Shot 2023-08-05 at 10 37 00 AM" src="https://github.com/southnx/CoLSurgical/assets/11313247/3b577932-e320-410b-ab87-89c6cf8ad428">
+##  Abstract
 
 Surgical triplet recognition aims to recognize surgical activities as triplets (i.e., <instrument, verb, target}>, which provides fine-grained information essential for surgical scene understanding. Existing methods for surgical triplet recognition rely on compositional methods that recognize the instrument, verb, and target simultaneously. In contrast, our method, called chain-of-look prompting, casts the problem of surgical triplet recognition as visual prompt generation from large-scale vision-language (VL) models, and explicitly decomposes the task into a series of video reasoning processes. Chain-of-Look prompting is inspired by: (1) the chain-of-thought prompting in natural language processing, which divides a problem into a sequence of intermediate reasoning steps; (2) the inter-dependency between motion and visual appearance in the human vision system. Since surgical activities are conveyed by the actions of physicians, we regard the verbs as the carrier of semantics in surgical endoscopic videos. Additionally, we utilize the BioMed large language model to calibrate the generated visual prompt features for surgical scenarios. Our approach captures the visual reasoning processes underlying surgical activities and achieves better performance compared to the state-of-the-art methods on the largest surgical triplet recognition dataset, CholecT50. 
